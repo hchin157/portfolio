@@ -1,5 +1,4 @@
 body {
-    background-color: #F47A42;
     background: red; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(blue, aliceBlue); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(blue, aliceBlue); /* For Opera 11.1 to 12.0 */
