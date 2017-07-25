@@ -1,9 +1,9 @@
 body {
-    background: blue; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(blue, aliceBlue);
-    background: -o-linear-gradient(blue, aliceBlue);
-    background: -moz-linear-gradient(blue, aliceBlue);
-    background: linear-gradient(blue, aliceBlue); 
+    background: #336BFF; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#336BFF, aliceBlue);
+    background: -o-linear-gradient(#336BFF, aliceBlue);
+    background: -moz-linear-gradient(#336BFF, aliceBlue);
+    background: linear-gradient(#336BFF, aliceBlue); 
 }
 }
 
