@@ -1,16 +1,20 @@
 body {
     background: #336BFF; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#336BFF, aliceBlue);
-    background: -o-linear-gradient(#336BFF, aliceBlue);
-    background: -moz-linear-gradient(#336BFF, aliceBlue);
-    background: linear-gradient(#336BFF, aliceBlue); 
+    background: -webkit-linear-gradient(aliceBlue, royalBlue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(aliceBlue, royalBlue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(aliceBlue, royalBlue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(aliceBlue, royalBlue); /* Standard syntax (must be last) */
 }
 }
 
-h1, h2 {
+h1 {
     color: white;
-    text-align: center;
-    font-family: Georgia
+    font-family: Georgia;
+}
+
+h2 {
+    color: white;
+    font-family: Georgia;
 }
 
 h4 {
@@ -23,4 +27,6 @@ h4 {
 p {
     font-family: garamond;
     font-size: 20px;
+    margin-right: 150px;
+    margin-left: 90px;
 }
