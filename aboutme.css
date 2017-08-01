@@ -1,21 +1,21 @@
 body {
-    background: #336BFF; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(aliceBlue, royalBlue); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(aliceBlue, royalBlue); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(aliceBlue, royalBlue); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(aliceBlue, royalBlue); /* Standard syntax (must be last) */
-}
-}
-
-h1 {
-    color: white;
-    font-family: Georgia;
+    background: #336BFF;
+    background: -webkit-linear-gradient(aliceBlue, royalBlue);
+    background: -o-linear-gradient(aliceBlue, royalBlue);
+    background: -moz-linear-gradient(aliceBlue, royalBlue);
+    background: linear-gradient(aliceBlue, royalBlue);
 }
 
-h2 {
+div {
+
+}
+h1, h2 {
+    text-align: center;
     color: white;
     font-family: Georgia;
+
 }
+
 
 h4 {
     color: white;
@@ -25,8 +25,16 @@ h4 {
 
 
 p {
-    font-family: garamond;
+    font-family: Trebuchet;
     font-size: 20px;
     margin-right: 130px;
     margin-left: 70px;
+}
+
+button {
+    background-color: #123456;
+    color: white;
+    font-family: Verdana;
+    padding: 10px 24px;
+    border-radius: 12px;
 }
